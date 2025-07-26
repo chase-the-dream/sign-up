@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+.large-container {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.space-img {
+    max-height: 100vh;
+    filter: grayscale(100%);
+}
