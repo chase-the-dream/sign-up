@@ -21,7 +21,29 @@
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
             </div>
             <div class="form-stuff">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae fuga tempora, illum dolores voluptas ea sed molestias eligendi consequuntur omnis dicta tenetur doloribus ullam harum cupiditate provident beatae consectetur.</p>
+                <p>Let's Do This</p>
+                <form class="flex-form">
+                    <div class="names">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+
+                    <div class="contact">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="123-456-7890">
+                    </div>
+                    
+                    <div class="passwords">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                </form>
             </div>
             <div class="end">
                 <button type="submit">Create Account</button>
